@@ -23,7 +23,7 @@ Upload all files together, including `live.html`, `live.js`, `api/live.mjs` and 
 
 ## Coverage and statistical conventions
 
-The curated archive covers history through 2024. The separate live desk fetches current-season statistics, including 2026 and 2026–27. Individual table rows contain their applicable coverage. Missing rows do not mean zero.
+The curated championship archive now includes selected completed 2025 and 2026 editions. The separate live desk fetches current-season statistics, including 2026 and 2026–27. Individual table rows contain their applicable coverage. Missing rows do not mean zero.
 
 | Competition | Included period |
 | --- | --- |
@@ -121,8 +121,20 @@ Example: `/api/live?league=nfl&kind=scores&date=20261012`; `/api/live?league=nba
 
 ESPN's public endpoints are not a contracted service and can change or throttle. Jolpica has usage limits. Review provider terms before commercial deployment. The UI never substitutes archived statistics for a failed live request. A retrieval timestamp means the response was fetched then, not that every number changed then. Standings display the provider's current season, independently of the scoreboard's selected match date. Game details are snapshots and can be reopened to refresh.
 
-The hand-curated historical archive still ends in 2024; its date labels are intentionally accurate. The live desk provides current-season information and date-based recent results without claiming the historical archive has been comprehensively backfilled.
+The archive contains completed 2025 and 2026 championship additions, documented in V7 below. Coverage varies by competition; older career-statistic snapshots retain their original dates.
 
 Provider references: https://site.api.espn.com/ · https://github.com/jolpica/jolpica-f1/blob/main/docs/README.md · https://vercel.com/docs/functions/runtimes/node-js
 
 V6 verification: all eight ESPN scoreboards and standings endpoints returned HTTP 200; 2026 F1 standings were retrieved. Browserless rendering checks exercised these payloads, game box scores, unavailable-feed states, hidden-tab pause and backend input validation. Local links and original artwork were checked. A visual browser check and hosted deployment have not been performed.
+
+## V7 — corrected championship cards and yearbook
+
+The homepage championship cards, year dropdown, yearbook, sport pages, team title counts and competition pages now use 15 additional sourced results: eight from 2025 and seven from 2026. There are 390 championship results in total. Source links are stored on every new result.
+
+Added 2025/2026 Super Bowls, NBA Finals, Stanley Cup Finals, Tour de France and Wimbledon men's singles; the 2025 World Series, F1 drivers' championship and men's handball World Championship; the 2026 men's FIFA World Cup and handball European Championship. European and world handball competitions are kept separate.
+
+The 2026 World Series and F1 title are marked undecided as of 12 October 2026, with links to live coverage. The 2026 Super Bowl follows the 2025 NFL season. Status notes are dated editorial snapshots, not auto-updating championship predictions.
+
+F1 driver title totals are recalculated through 2025, Denmark's world-title count includes 2025, and Pogačar's Tour count includes 2026. Five sourced 2026 NBA postseason statistics were added. There are 218 numerical entries; remaining career snapshots retain their own original coverage dates. This does not claim every historical statistic is current.
+
+Upload the full folder contents to replace the previous release. Changed scripts and styles have versioned URLs to avoid reusing old cached files. Live-feed functionality is retained.
