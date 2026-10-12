@@ -6734,6 +6734,22 @@ window.ALMANAC = {
       "title": "A fourth crown for South Africa",
       "text": "South Africa defeats New Zealand 12–11 in the Rugby World Cup final.",
       "url": "https://www.world.rugby/news/888593/nzl-11-12-rsa-south-africa-win-tense-final-to-claim-fourth-rugby-world-cup?lang=en"
+    },
+    {
+      "date": "10-12",
+      "year": 2019,
+      "sport": "ATHLETICS",
+      "title": "Kipchoge breaks the two-hour barrier",
+      "text": "Eliud Kipchoge covers the marathon distance in 1:59:40.2 in Vienna. The specially paced exhibition is not eligible as an official world record.",
+      "url": "https://worldathletics.org/news/report/eliud-kipchoge-breaks-two-hours-vienna"
+    },
+    {
+      "date": "10-12",
+      "year": 2003,
+      "sport": "FORMULA 1",
+      "title": "Schumacher secures a sixth title",
+      "text": "Michael Schumacher finishes eighth at the Japanese Grand Prix and clinches his sixth Formula 1 world championship.",
+      "url": "https://www.formula1.com/en/results/2003/drivers/MICSCH01/michael-schumacher"
     }
   ],
   "sources": {

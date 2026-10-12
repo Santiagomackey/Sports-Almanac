@@ -138,3 +138,7 @@ The 2026 World Series and F1 title are marked undecided as of 12 October 2026, w
 F1 driver title totals are recalculated through 2025, Denmark's world-title count includes 2025, and Pogačar's Tour count includes 2026. Five sourced 2026 NBA postseason statistics were added. There are 218 numerical entries; remaining career snapshots retain their own original coverage dates. This does not claim every historical statistic is current.
 
 Upload the full folder contents to replace the previous release. Changed scripts and styles have versioned URLs to avoid reusing old cached files. Live-feed functionality is retained.
+
+## V8 — Today, some years ago
+
+The history card and More Events dialog now show only events matching the visitor's local month and day, from earlier years. Two sourced October 12 anniversaries are bundled for offline use. Additional sports events load from Wikimedia's daily history feed, with attribution and source links. No unrelated date is substituted on empty days or network failures. The section checks for local midnight every minute and when the tab becomes visible. Original styling and artwork are retained.
